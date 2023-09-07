@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.boja a:link{
+   color:black
+    background-color: transparent;
+    text-decoration: none;
+  }
+ .boja a:visited {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+.boja a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+.boja a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+ .drlink a{
+    background-color: #f44336;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .drlink a:hover {
+    background-color: rgb(150, 9, 9);
+  }
+ 
+.poglavlje a{
+    color: blue;
+}
+
+.poglavlje a:hover{
+   color: red;
+}
+
+.paragraf p{
+    background-image: url('reso.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

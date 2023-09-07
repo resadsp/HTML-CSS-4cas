@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="html-css-4cas.css">
+    <title>HTML CSS</title>
+</head>
+<body>
+<a href="https://www.w3schools.com/" target="_blank">Otvara link u novom prozoru</a><br>
+<a href="https://www.w3schools.com/" target="_self">Otvara link u istom prozoru</a><br>
+<a href="https://www.w3schools.com/" target="_parent">Otvara link u odredjenom prostoru</a><br><br>
+<a href="https://www.w3schools.com/"><img src="reso.jpg" alt="HTML tutorial" style="width:42px;height:42px;"></a> <!-- koristi sliku kao link --> <br><br>
+<!-- imamo apsolutni i relativni url. 
+Apsolutni URL, koji pruža cjelovitu adresu web stranice ili resursa na WWW, obično ima format koji je naveden u nastavku.
+protokol: // ime hosta / ostali_detalji 
+Relativni URL usmjerava na resurs u odnosu na trenutni direktorij ili datoteku
+Glavna razlika između apsolutnog URL-a i relativnog URL-a je u tome što je apsolutni URL cjelovita adresa koja upućuje na datoteku ili resurs,
+dok relativni URL pokazuje datoteku u odnosu na trenutni direktorij ili datoteku. Apsolutni URL sadrži više informacija od relativnog URL-a,
+ali korištenje relativnih URL-ova puno je lakše jer su kraći i prenosiviji. Ali relativni URL-ovi mogu se koristiti samo za upućivanje na 
+veze koje se nalaze na istom poslužitelju kao i stranica koja ih upućuje.
+-->
+<button onclick="document.location='https://www.w3schools.com/'">HTML Tutorial</button> <!-- kada se pritisne na dugme, vodi do odredjenog linka -->
+<p><a href="mailto:someone@example.com">POSALJI MEJL</a></p>
+<div class="boja">
+    <a href="https://www.w3schools.com/" target="_blank">PRVI LINK</a><br>
+</div>
+<div class="drlink"> <a href="https://www.w3schools.com/" target="_blank">DRUGI LINK</a><br></div><br><br>
+
+<div class="poglavlje"><a href="#C4">POVEDI ME NA POGLAVLJE 4</a></div>
+<div class="poglavlje"><a href="#C10" class="poglavlje">POVEDI ME NA POGLAVLJE 10</a></div>
+
+<h2>Chapter 1</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 2</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 3</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2 id="C4">Chapter 4</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 5</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 6</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 7</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 8</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 9</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2 id="C10">Chapter 10</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 11</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 12</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 13</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 14</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 15</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 16</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 17</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 18</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 19</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 20</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 21</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 22</h2>
+<p>This chapter explains ba bla bla</p>
+
+<h2>Chapter 23</h2>
+<p>This chapter explains ba bla bla</p>
+
+<!-- slike -->
+<p><img src="reso.jpg" alt="HTML tutorial" style="width:150px;height: 150px;">Uzimamo sliku sa naseg racunara</p>
+<p><img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com" style="width:104px;height:142px;">Uzimamo sliku direktno sa interneta</p>
+
+<!-- html image map -->
+<img src="workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379">
+<map name="workmap">
+    <area shape="rect" coords="34,44,270,350" alt="Computer" href="https://www.amazon.com/laptop-computers/s?k=laptop+computers">
+    <area shape="rect" coords="290,172,333,250" alt="Phone" href="https://www.amazon.com/s?k=cell+phones">
+    <area shape="circle" coords="337,300,44" alt="Coffee" href="https://narucikafu.rs/product-category/espresso-kafa/espresso-kafa-u-zrnu/"  onclick="myFunction()">
+  </map>
+
+<script>function myFunction(){
+    alert("ODABRALI STE KAFU")}</script>
+    
+<!-- slike pozadine -->
+<!-- pozadina paragrafa -->
+<div class="paragraf"><p>You can specify background images<br>
+    for any visible HTML element.<br>
+    In this example, the background image<br>
+    is specified for a div element.<br>
+    By default, the background-image<br>
+    will repeat itself in the direction(s)<br>
+    where it is smaller than the element<br>
+    where it is specified. Try resizing the<br>
+    browser window to see how the<br>
+    background image behaves.</p></div>
+
+
+
+</body>
+</html>
